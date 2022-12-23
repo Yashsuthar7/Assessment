@@ -1,0 +1,38 @@
+.container
+{
+    text-align: center;
+    margin-top: 23px;
+    
+}
+table
+{
+    margin: auto;
+    padding-top: 5px;
+}
+input
+{
+    font-size: 41px;
+    border: 2px solid;
+    margin-top: 3%;
+    border-radius: 10px ;
+}
+button
+{
+    font-size: 15px;
+    width: 70px;        
+    height: 60px;
+    border-radius: 10px;
+    
+}
+button:hover
+{
+    background-color: cadetblue;
+    transition:0.5s ease-in-out;
+}
+.calculator
+{
+    border: 3px solid #0000ff39;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: bisque;
+}
