@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.radhe{
+    height: 1500vh;
+    width: 100%;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    margin: 0% auto;
+    height: 7rem;
+    width: 13rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+}
+.nav-bar img{
+    height: 90px;
+    margin-top: 5%;
+}
+.menu-box .menu-box-content a, .book-box .menu-box-content a, .package-box .menu-box-content a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.menu-box .menu-box-content a i, .book-box .menu-box-content a i, .package-box .menu-box-content a i{
+    margin-top: 38%;
+}
+.menu-box{
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-top: 15%;
+    height: 7rem;
+    width: 6rem;
+    background-color: #1E2B31;
+    text-align: center;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.book-box{
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-top: 15%;
+    height: 7rem;
+    width: 6rem;
+    background-color: #8e9237;
+    text-align: center;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.package-box{
+    position: fixed;
+    height: 5rem;
+    width: 8rem;
+    margin: 32% 0 0 100%;
+    float: right;
+    right: 0;
+    background-color: #1E2B31;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+}
+/* Carsoul Dashboard */
+.radhe-events{
+    position: absolute;
+    height: 90vh;
+    width: 94%;
+    top: 0;
+    margin: 4% 3%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.radhe-events .carousel-item img{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.9;
+}
+.radhe-events .carousel-item h5{
+    margin-top: -40%;
+    font-size: 48px;
+    font-family: 'Kanit', sans-serif;
+}
+.radhe-events .carousel-item p{
+    font-size: 36px;
+    font-family: 'DM Serif Text', serif;
+}
+/* About us */
+.about-us{
+    position: relative;
+    height: 120vh;
+    width: 100%;
+    margin-top: 45%;
+}
+.about-us img{
+    height: 120vh;
+    width: 100%;
+}
+.about-us .about-content{
+    position: absolute;
+    top: 0;
+    height: 80vh;
+    width: 40%;
+    background-color: white;
+    opacity: 0.88;
+    text-align: center;
+    margin: 10% 0 0 55%;
+}
+.about-us .about-content img{
+    margin-top: 15%;
+    height: 50px;
+    width: 50px;
+}
+.about-us .about-content h1{
+    margin-top: 2%;
+    font-family: 'Kanit', sans-serif;
+}
+.about-us .about-content .first,.second{
+    margin: 0 auto;
+    width: 80%;
+}
+.about-us .about-content .first{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.about-us .about-content .second{
+    margin-top: 5%;
+    font-size: 16px;
+}
+.about-us .about-content button{
+    width: 10rem;
+    height: 3rem;
+    background-color: #1E2B31;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 0ch;
+    margin-top: 8%;
+}
+/* Rest Dashboard */
+.rest-dash{
+    margin-top: 5%;
+    text-align: center;
+}
+.rest-dash img{
+    height: 60px;
+}
+.rest-dash h1{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+.rest-dash p{
+    font-size: 22px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+/* Rest Carsoul */
+.rest-main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-top: 5%;
+}
+.rest-main .rest-carsoul{
+    margin: 0 5%;
+    width: 90%;
+    height: 120vh;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+.rest-carsoul .carousel-inner img{
+    height: 120vh;
+    width: 90%;
+}
+.rest-main .rest-sub-carsoul{
+    position: absolute;
+    height: 70vh;
+    width: 30%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    margin: 10% 0 0 2%;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.rest-main .rest-sub-carsoul img{
+    height: 55px;
+    margin-top: 40%;
+}
+.rest-main .rest-sub-carsoul h3{
+    color: black;
+    margin-top: 4%;
+}
+.rest-main .rest-sub-carsoul .club-suite h3{
+    margin-top: 25%;
+    color: black;
+    font-size: 38px;
+}
+.rest-main .rest-sub-carsoul .club-suite p{
+    width: 80%;
+    margin: 4% auto;
+}
+.rest-sub-carsoul .icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+/* Aminities */
+.aminities{
+    margin-top: 17%;
+    height: 210vh;
+    width: 100%;
+    background-color: #1E2B31;
+    text-align: center;
+}
+.aminities .aminities-content img{
+    height: 55px;
+    margin-top: 5%;
+}
+.aminities .aminities-content h1{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 1%;
+    font-family: 'Kanit', sans-serif;
+}
+.aminities .aminities-content p{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.aminities .aminities-content .first{
+    height: 13rem;
+    background-color: white;
+}
+.aminities .aminities-content .second{
+    height: 13rem;
+    background-color: #333;
+}
+.aminities button{
+    height: 4rem;
+    width: 14rem;
+    color: white;
+    font-weight: bolder;
+    border: 0ch;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #8e9237;
+}
+.aminities button:hover{
+    background-color: #1E2B31;
+    transition: 0.3s;
+}
+.aminities .aminities-content .avl, .call{
+    height: 13rem;
+    background-color: #1E2B31;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.aminities .aminities-content .avl a, .call a{
+    text-decoration: none;
+    color: white;
+}
+.aminities .aminities-content .avl i, .call i{
+    margin-top: 15%;
+}
+.avl:hover h6, .call:hover h6{
+    color: #8e9237;
+}
+/* Peacock Theme */
+.peacock-theme{
+    height:88vh;
+    width: 95%;
+    margin: 4% auto;
+}
+.peacock-theme img{
+    position: absolute;
+    height: 88vh;
+    width: 95%; 
+    opacity: 0.8;
+}
+.peacock-theme .peacock-content{
+    position: relative;
+    text-align: center;
+    padding-top: 12%;
+}
+.peacock-theme .peacock-content .heading{
+    font-size: 62px;
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.peacock-theme .peacock-content .heading-2{
+    font-size: 22px;
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.peacock-theme .peacock-content .content{
+    font-size: 20px;
+    color: white;
+    width: 45%;
+    margin: 0% auto;
+}
+.peacock-theme .peacock-content button, .gallary button{
+    height: 3.5rem;
+    width: 12rem;
+    margin: 3% 2% 0 0;
+    background-color: #1E2B31;
+    border: 0ch;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.peacock-theme .peacock-content button:hover , .gallary button:hover{
+    background-color: #8e9237;
+    transition: 0.3s;
+}
+/* Gallary */
+.gallary{
+    height: 170vh;
+    width: 100%;
+}
+.gallary .gallary-content{
+    text-align: center;
+    padding-top: 5%;
+}
+.gallary .gallary-content img,.testimonials img , .membership-content img{
+    height: 55px;
+}
+.gallary ,.gallary-content h1, .membership-content h1{
+    font-family: 'Kanit', sans-serif;
+    margin-top: 1%;
+    font-size: 46px;
+}
+.gallary .gallary-content p{
+    font-size: 22px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.gallary-img {
+    display: grid;
+    grid-gap: 9px;
+    grid-template-columns: repeat(auto-fill, [col] 100px ) ;
+    grid-template-rows: repeat(auto-fill, [row] auto  );
+}
+.box {
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 150%;
+} 
+.a {
+    grid-column: col / span 5;
+    grid-row: row ;
+ }
+.b {
+    grid-column: col 6 / span 3 ;
+    grid-row: row ;
+}
+.c {
+    grid-column: col 9 / span 3 ;
+    grid-row: row;
+}
+.d {
+    grid-column: col 12/ span  3 ;
+    grid-row: row ;
+}
+.e {
+    grid-column: col / span 4;
+    grid-row: row 2;
+}
+.f {
+    grid-column: col 5/ span 6;
+    grid-row: row 2;
+}
+.g {
+    grid-column: col 11/ span 4;
+    grid-row: row 2;
+}
+.h {
+    grid-column: col 12/ span 3 ;
+    grid-row: row 3;
+}
+.i {
+    grid-column: col / span 6;
+    grid-row: row 3;
+}
+.j {
+    grid-column: col 7/ span 5;
+    grid-row: row 3;
+}
+.gallary .gallary-img img{
+    height: 280px;
+    width: 100%;
+}
+/* Testimonials */
+.testimonials{
+    margin-top: 8%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.testimonials h1{
+    text-transform: uppercase;
+    color: #1E2B31;
+    font-weight: bolder;
+    margin-top: 1%;
+    font-family: 'Kanit', sans-serif;
+}
+.testimonials p{
+    font-size: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'DM Serif Text', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Russo One', sans-serif;   
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.testimonials .testimonials-content{
+    height: 60vh;
+    width: 45%;
+    margin: 5% auto;
+    background-color: #1E2B31;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.testimonials .testimonials-content .testimonials-img img{
+    border-radius: 55px; 
+    background-color: white;
+    margin:  -6% 18%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 120px;
+}
+.testimonials .testimonials-content .carousel-inner{
+    width: 80%;
+    margin: 15% auto;
+}
+.testimonials .testimonials-content .carousel-inner p{
+    color: white;
+    font-size: 18px;
+}
+/* Membership */
+.membership{
+    height: 80vh;
+    width: 100%;
+    background-color: #f1f4f6;
+    margin-top: 8%;
+    display: flex;
+}
+.membership .membership-content{
+    width: 50%;
+    padding: 5% 5%;
+}
+.membership .membership-img{
+    width: 50%;
+    margin-top: -2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.membership .membership-img img{
+    height: 90vh;
+    width: 100%;
+}
+.membership .membership-content p{
+    margin-top: 5%;
+    width: 90%;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+}
